@@ -1,0 +1,34 @@
+* {
+    margin:0;
+}
+
+body {
+    background-color: khaki;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+h1 {
+    color: rgb(223, 70, 70);
+    margin: 8px;
+}
+
+div.gallery {
+    background-color: rgb(201, 201, 246);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding:32px;
+}
+
+div.gallery img {
+    height: 500px;
+}
+
+
+
+
